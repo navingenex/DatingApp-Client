@@ -5,3 +5,26 @@
 @import '../node_modules/alertifyjs/build/css/alertify.min.css';
 @import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
 @import '../node_modules/bootswatch/dist/pulse/bootstrap.min.css';
+
+.alertify-notifier .ajs-message.ajs-error {
+    background: #DF2D0F !important;
+    border-radius: 2px !important;
+    color:#000000 !important;
+    font-size: 1rem !important;
+}
+  .alertify-notifier .ajs-message.ajs-success {
+    background: #389059 !important;
+    border-radius: 2px !important;
+    color:black !important;
+  }
+  .alertify-notifier .ajs-message.ajs-warning {
+    background: #C37902 !important;
+    border-radius: 2px !important;
+    color:black !important;
+  }
+  .alertify-notifier .ajs-message.ajs-message {
+    background: #3BB4D8 !important;
+    border-radius: 2px!important;
+    color:black !important;
+
+  }
