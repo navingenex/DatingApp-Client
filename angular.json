@@ -25,7 +25,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../DatingApp-Client/node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "../DatingApp-Client/node_modules/alertifyjs/build/alertify.min.js"
+            ]
           },
           "configurations": {
             "production": {
